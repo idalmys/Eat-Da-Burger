@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("/assets/img/burger3.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Calistoga', cursive;
+    text-transform: uppercase;
+}
+
+.btn{
+    width: 50%;
+    cursor: pointer;
+    border: 2px solid white;
+    text-transform: uppercase;
+  }
+  .btn:hover{
+    background-color: white;
+    color:black;
+  }
+  h1, .btn , label{
+      color: white;
+  }
+  section{
+     margin-top: 30px;
+     padding-top: 10px;
+   padding-left: 10px;
+      align-items: center;
+    
+      align-content: center;
+      border-radius: 5px;
+      background: rgba(0,0,0, .6);
+    
+    
+  }
+  
+
+  
