@@ -5,7 +5,8 @@ const path=require("path");
 const app=express();
 
 //Settings
-app.set("port", process.env.Port || 8080);
+var port = process.env.PORT || 3000;
+
 app.set("views",path.join(__dirname,"views"));
 app.engine(".hbs",exhdbs(
     {
@@ -31,6 +32,6 @@ app.use(require("./controllers/burgers_controllers"));
 app.use(express.static("public"));
 
 //Server
-app.listen(app.get("port"), ()=>{
-    console.log("Server on Port" , app.get("port"));
+app.listen(port, ()=>{
+    console.log("Server on Port" , port);
 });
