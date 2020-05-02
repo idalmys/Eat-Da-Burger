@@ -1,0 +1,5 @@
+INSERT INTO burgers (burger_name, devoured) VALUES
+("BIG MAC", FALSE),
+("DOUBLE CHEESEBURGER", TRUE),
+("MAC DOUBLE", TRUE),
+("CHEESEBURGER", FALSE);

@@ -1,39 +1,46 @@
 body{
-    padding: 0;
-    margin: 0;
-    background-image: url("/assets/img/burger3.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'Calistoga', cursive;
-    text-transform: uppercase;
+padding: 0;
+margin: 0;
+background-image: url("/assets/img/burger3.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+font-family: 'Anton', sans-serif;
+text-transform: uppercase;
+ 
+}
+.btn{
+  width: 30%;
+  cursor: pointer;
+  border: 2px solid white;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.btn:hover{
+  background-color: white;
+  color:black;
+}
+h1, .btn, h2 {
+    color: white;
 }
 
-.btn{
-    width: 50%;
-    cursor: pointer;
-    border: 2px solid white;
-    text-transform: uppercase;
-  }
-  .btn:hover{
-    background-color: white;
-    color:black;
-  }
-  h1, .btn , label{
-      color: white;
-  }
-  section{
-     margin-top: 30px;
-     padding-top: 10px;
-   padding-left: 10px;
-      align-items: center;
-    
-      align-content: center;
-      border-radius: 5px;
-      background: rgba(0,0,0, .6);
-    
-    
-  }
-  
+.form-control{
+  text-align: center;
+  color:white;
+  width: 40%;
+}
 
-  
+section{
+  margin-top: 40px;
+}
+.form-group{
+  display: flex;
+  justify-content: center;
+}
+ul{
+  list-style: none;
+  color: white;
+}
+.col-md-12{
+  text-align: center;
+}
