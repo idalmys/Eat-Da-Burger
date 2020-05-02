@@ -9,7 +9,3 @@ CREATE TABLE burgers(
    PRIMARY KEY (burger_id)
 );
   
-INSERT INTO burgers (burger_name, devoured) VALUES
-("BIG MAC", FALSE),
-("DOUBLE CHEESE BURGER", TRUE),
-("MAC DOUBLE", FALSE);
