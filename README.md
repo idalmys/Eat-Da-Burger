@@ -7,7 +7,7 @@ Each burger in the waiting area also has a Devour it! button. When the user clic
 
 Your app will store every burger in a database, whether devoured or not.
 
-#How use it
+# How use it
 You must enter a burger'sname and click on the submit button.If you want devour the burger click on Devourt it button.The app will be updated and the devoured burger will display it on the right side of the page.
 
 # Tecnologies
